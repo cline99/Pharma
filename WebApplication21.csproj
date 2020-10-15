@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA5EB356-508D-4107-A3D4-755B3ABBEC9D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication21</RootNamespace>
+    <AssemblyName>WebApplication21</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\angular.min.js" />
+    <Content Include="pharma\js\main.js" />
+    <Content Include="View\User\About.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="img\building.jpg" />
+    <Content Include="img\building2.jpg" />
+    <Content Include="img\building3.jpg" />
+    <Content Include="img\building4.jpg" />
+    <Content Include="img\building5.jpg" />
+    <Content Include="img\building6.jpg" />
+    <Content Include="img\hero_1.jpg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-migrate-1.4.1.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="pharma\about.html" />
+    <Content Include="pharma\cart.html" />
+    <Content Include="pharma\checkout.html" />
+    <Content Include="pharma\contact.html" />
+    <Content Include="pharma\css\aos.css" />
+    <Content Include="pharma\css\bootstrap.min.css" />
+    <Content Include="pharma\css\bootstrap\bootstrap-grid.css" />
+    <Content Include="pharma\css\bootstrap\bootstrap-reboot.css" />
+    <Content Include="pharma\css\bootstrap\bootstrap.css" />
+    <Content Include="pharma\css\jquery-ui.css" />
+    <Content Include="pharma\css\magnific-popup.css" />
+    <Content Include="pharma\css\owl.carousel.min.css" />
+    <Content Include="pharma\css\owl.theme.default.min.css" />
+    <Content Include="pharma\css\style.css" />
+    <Content Include="pharma\css\style1.css" />
+    <Content Include="pharma\fonts\icomoon\demo-files\demo.css" />
+    <Content Include="pharma\fonts\icomoon\demo-files\demo.js" />
+    <Content Include="pharma\fonts\icomoon\demo.html" />
+    <Content Include="pharma\fonts\icomoon\fonts\icomoon.svg" />
+    <Content Include="pharma\fonts\icomoon\Read Me.txt" />
+    <Content Include="pharma\fonts\icomoon\style.css" />
+    <Content Include="pharma\images\bg_1.jpg" />
+    <Content Include="pharma\images\bg_2.jpg" />
+    <Content Include="pharma\images\hero_1.jpg" />
+    <Content Include="pharma\images\person_1.jpg" />
+    <Content Include="pharma\images\person_2.jpg" />
+    <Content Include="pharma\images\person_3.jpg" />
+    <Content Include="pharma\images\person_4.jpg" />
+    <Content Include="pharma\images\person_5.jpg" />
+    <Content Include="pharma\images\products_1.png" />
+    <Content Include="pharma\images\product_01.png" />
+    <Content Include="pharma\images\product_02.png" />
+    <Content Include="pharma\images\product_03.png" />
+    <Content Include="pharma\images\product_04.png" />
+    <Content Include="pharma\images\product_05.png" />
+    <Content Include="pharma\images\product_06.png" />
+    <Content Include="pharma\images\product_07_large.png" />
+    <Content Include="pharma\images\shoe.png" />
+    <Content Include="pharma\images\wave.svg" />
+    <Content Include="pharma\images\women.jpg" />
+    <Content Include="pharma\index.html" />
+    <Content Include="pharma\js\aos.js" />
+    <Content Include="pharma\js\bootstrap.min.js" />
+    <Content Include="pharma\js\jquery-3.3.1.min.js" />
+    <Content Include="pharma\js\jquery-ui.js" />
+    <Content Include="pharma\js\jquery.magnific-popup.min.js" />
+    <Content Include="pharma\js\owl.carousel.min.js" />
+    <Content Include="pharma\js\popper.min.js" />
+    <Content Include="pharma\js\slick.min.js" />
+    <Content Include="pharma\shop-single.html" />
+    <Content Include="pharma\shop.html" />
+    <Content Include="pharma\thankyou.html" />
+    <Content Include="View\Admin\adminpannel.aspx" />
+    <Content Include="View\Admin\Delete.aspx" />
+    <Content Include="View\Admin\Login.aspx" />
+    <Content Include="View\Admin\Manage.aspx" />
+    <Content Include="View\User\Antibiotics.aspx" />
+    <Content Include="View\User\Cart.aspx" />
+    <Content Include="View\User\CartDel.aspx" />
+    <Content Include="View\User\Contact.aspx" />
+    <Content Include="View\User\Forgot.aspx" />
+    <Content Include="View\User\index.aspx" />
+    <Content Include="View\User\logout.aspx" />
+    <Content Include="View\User\Ointments.aspx" />
+    <Content Include="View\User\Others.aspx" />
+    <Content Include="View\User\Painkillers.aspx" />
+    <Content Include="View\User\Products.aspx" />
+    <Content Include="View\User\Register.aspx" />
+    <Content Include="View\User\Search.aspx" />
+    <Content Include="View\User\Supplements.aspx" />
+    <Content Include="View\User\thankyou.aspx" />
+    <Content Include="View\User\Userlogin.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="View\User\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Admin\adminpannel.aspx.cs">
+      <DependentUpon>adminpannel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\adminpannel.aspx.designer.cs">
+      <DependentUpon>adminpannel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Antibiotics.aspx.cs">
+      <DependentUpon>Antibiotics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Antibiotics.aspx.designer.cs">
+      <DependentUpon>Antibiotics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\CartDel.aspx.cs">
+      <DependentUpon>CartDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\CartDel.aspx.designer.cs">
+      <DependentUpon>CartDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Forgot.aspx.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Forgot.aspx.designer.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Ointments.aspx.cs">
+      <DependentUpon>Ointments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Ointments.aspx.designer.cs">
+      <DependentUpon>Ointments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Others.aspx.cs">
+      <DependentUpon>Others.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Others.aspx.designer.cs">
+      <DependentUpon>Others.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Painkillers.aspx.cs">
+      <DependentUpon>Painkillers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Painkillers.aspx.designer.cs">
+      <DependentUpon>Painkillers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Supplements.aspx.cs">
+      <DependentUpon>Supplements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Supplements.aspx.designer.cs">
+      <DependentUpon>Supplements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\thankyou.aspx.cs">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\thankyou.aspx.designer.cs">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\User\Userlogin.aspx.cs">
+      <DependentUpon>Userlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\User\Userlogin.aspx.designer.cs">
+      <DependentUpon>Userlogin.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="img\Thumbs.db" />
+    <Content Include="pharma\.DS_Store" />
+    <Content Include="pharma\css\bootstrap.min.css.map" />
+    <Content Include="pharma\fonts\icomoon\fonts\icomoon.eot" />
+    <Content Include="pharma\fonts\icomoon\fonts\icomoon.ttf" />
+    <Content Include="pharma\fonts\icomoon\fonts\icomoon.woff" />
+    <Content Include="pharma\fonts\icomoon\selection.json" />
+    <Content Include="pharma\images\.DS_Store" />
+    <Content Include="pharma\images\Thumbs.db" />
+    <Content Include="pharma\scss\.DS_Store" />
+    <Content Include="pharma\scss\bootstrap\.DS_Store" />
+    <Content Include="pharma\scss\bootstrap\bootstrap-grid.scss" />
+    <Content Include="pharma\scss\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="pharma\scss\bootstrap\bootstrap.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_alert.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_badge.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_buttons.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_caret.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_float.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_forms.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_gradients.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_grid.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_hover.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_image.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_list-group.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_lists.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_pagination.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_resize.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_size.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_table-row.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_transition.scss" />
+    <Content Include="pharma\scss\bootstrap\mixins\_visibility.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_align.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_background.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_borders.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_display.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_embed.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_flex.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_float.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_position.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_shadows.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_sizing.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_spacing.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_text.scss" />
+    <Content Include="pharma\scss\bootstrap\utilities\_visibility.scss" />
+    <Content Include="pharma\scss\bootstrap\_alert.scss" />
+    <Content Include="pharma\scss\bootstrap\_badge.scss" />
+    <Content Include="pharma\scss\bootstrap\_breadcrumb.scss" />
+    <Content Include="pharma\scss\bootstrap\_button-group.scss" />
+    <Content Include="pharma\scss\bootstrap\_buttons.scss" />
+    <Content Include="pharma\scss\bootstrap\_card.scss" />
+    <Content Include="pharma\scss\bootstrap\_carousel.scss" />
+    <Content Include="pharma\scss\bootstrap\_close.scss" />
+    <Content Include="pharma\scss\bootstrap\_code.scss" />
+    <Content Include="pharma\scss\bootstrap\_custom-forms.scss" />
+    <Content Include="pharma\scss\bootstrap\_dropdown.scss" />
+    <Content Include="pharma\scss\bootstrap\_forms.scss" />
+    <Content Include="pharma\scss\bootstrap\_functions.scss" />
+    <Content Include="pharma\scss\bootstrap\_grid.scss" />
+    <Content Include="pharma\scss\bootstrap\_images.scss" />
+    <Content Include="pharma\scss\bootstrap\_input-group.scss" />
+    <Content Include="pharma\scss\bootstrap\_jumbotron.scss" />
+    <Content Include="pharma\scss\bootstrap\_list-group.scss" />
+    <Content Include="pharma\scss\bootstrap\_media.scss" />
+    <Content Include="pharma\scss\bootstrap\_mixins.scss" />
+    <Content Include="pharma\scss\bootstrap\_modal.scss" />
+    <Content Include="pharma\scss\bootstrap\_nav.scss" />
+    <Content Include="pharma\scss\bootstrap\_navbar.scss" />
+    <Content Include="pharma\scss\bootstrap\_pagination.scss" />
+    <Content Include="pharma\scss\bootstrap\_popover.scss" />
+    <Content Include="pharma\scss\bootstrap\_print.scss" />
+    <Content Include="pharma\scss\bootstrap\_progress.scss" />
+    <Content Include="pharma\scss\bootstrap\_reboot.scss" />
+    <Content Include="pharma\scss\bootstrap\_root.scss" />
+    <Content Include="pharma\scss\bootstrap\_tables.scss" />
+    <Content Include="pharma\scss\bootstrap\_tooltip.scss" />
+    <Content Include="pharma\scss\bootstrap\_transitions.scss" />
+    <Content Include="pharma\scss\bootstrap\_type.scss" />
+    <Content Include="pharma\scss\bootstrap\_utilities.scss" />
+    <Content Include="pharma\scss\bootstrap\_variables.scss" />
+    <Content Include="pharma\scss\style.scss" />
+    <Content Include="pharma\scss\_site-base.scss" />
+    <Content Include="pharma\scss\_site-blocks.scss" />
+    <Content Include="pharma\scss\_site-navbar.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1559</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1559/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
